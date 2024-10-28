@@ -1,1 +1,0 @@
-Will be making the backend for the application first and then the frontend using some basic dom manipulation later can be changed to react or some other framework
