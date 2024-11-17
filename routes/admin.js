@@ -2,6 +2,12 @@ const {Router} = require("express")
 const adminRouter = Router()
 const {adminModel} = require("../db")
 
+function adminLogin(req, res, next){
+const username = req.body.username
+const password = req.body.password
+
+next()
+}
 
 adminRouter.post("/signup", function(req, res){
     res.json({
